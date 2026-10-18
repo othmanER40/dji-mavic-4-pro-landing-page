@@ -99,6 +99,7 @@
     display: flex;
     margin: 0 auto;
     padding: 150px 5%;
+    width: 80%;
 }
 
 .section1 .image img {
@@ -204,6 +205,9 @@
     margin: 10px 0;
     border-radius: 25px;
     color: white;
+    width: 70%;
+    font-weight: 700;
+    transition: all 0.2s;
 }
 
 .discount .wishlist {
@@ -214,4 +218,116 @@
 
 .discount img {
     margin: 20px;
+}
+
+.discount .cart:hover,
+.wishlist:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+}
+
+.section2 {
+    background-color: rgb(203, 234, 255);
+    text-align: center;
+    margin: 0 auto;
+    padding: 50px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 h3,
+p {
+    margin: 20px;
+}
+
+.section2 h3 {
+    font-size: 30px;
+}
+
+.section2 h3 span {
+    color: #7c3aed;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 15%;
+    justify-content: center;
+    align-content: center;
+    gap: 10px
+}
+
+.feature-icon {
+    height: 22px;
+    width: 22px;
+}
+
+.feature-card {
+    border: 1px solid white;
+    width: 30%;
+    margin: 10px;
+    position: relative;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+    text-align: left;
+    transition: all 0.3s;
+}
+
+.container1 img {
+    height: 22px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.creator-cta {
+    background-color: #8b5cf6;
+    border-radius: 33px;
+    margin-top: 25px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    width: 80%;
+}
+
+.cta-button {
+    text-decoration: none;
+    color: rgb(46, 30, 138);
+    background-color: white;
+    /* white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    */
+    padding: 18px 28px;
+    border-radius: 50px;
+}
+
+.cta-content {
+    text-align: left;
+}
+
+.cta-content span {
+    font-size: 22px;
+}
+
+.cta-content h2 {
+    font-size: 35px;
+}
+
+.cta-content p {
+    font-size: 18px;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
 }
