@@ -345,7 +345,8 @@ p {
     background-color: beige;
     width: 28%;
     border-radius: 20px;
-    padding: 20px;
+    position: sticky;
+    height: 30%;
 }
 
 .rating-breakdown {
@@ -391,6 +392,7 @@ p {
     display: flex;
     width: 50%;
     margin: 0 auto;
+    position: relative;
     justify-content: space-between;
 }
 
@@ -422,12 +424,13 @@ p {
 }
 
 .purchase-info {
-    width: 30%;
+    width: 45%;
 }
 
 .verified {
     border-radius: 20px;
     background-color: #98baff;
-    font-size: 13px;
+    font-size: 11px;
     padding: 5px;
+    width: 100%;
 }
