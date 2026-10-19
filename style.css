@@ -338,15 +338,18 @@ p {
 }
 
 .rating-card {
+    position: sticky;
+    top: 100px;
+    align-self: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: beige;
     width: 28%;
+    height: fit-content;
     border-radius: 20px;
-    position: sticky;
-    height: 30%;
+    padding: 20px;
 }
 
 .rating-breakdown {
@@ -390,10 +393,11 @@ p {
 
 .total {
     display: flex;
-    width: 50%;
+    width: 90%;
     margin: 0 auto;
-    position: relative;
     justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
 }
 
 .review-card {
