@@ -310,6 +310,12 @@ p {
     */
     padding: 18px 28px;
     border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.cta-button:hover {
+    background-color: rgb(46, 30, 138);
+    color: white;
 }
 
 .cta-content {
@@ -469,6 +475,30 @@ p {
     margin: 50px auto;
 }
 
+#accessories h3:first-child {
+    font-size: 40px;
+}
+
+#accessories span {
+    color: #7c3aed;
+}
+
+#accessories p {
+    font-size: 20px;
+}
+
+.section3 h3:first-child {
+    font-size: 40px;
+}
+
+.section3 span {
+    color: #7c3aed;
+}
+
+.section3 p {
+    font-size: 20px;
+}
+
 .section4 img {
     width: 80%;
     border-radius: 20px;
@@ -489,6 +519,7 @@ p {
     width: calc(20% - 20px);
     position: relative;
     border-radius: 20px;
+    box-shadow: 0 19px 38px rgba(253, 214, 214, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
 }
 
 .badge {
@@ -513,6 +544,7 @@ p {
     color: white;
     border: 1px solid #7c3aed;
     transition: all 0.3s;
+    box-shadow: 0 19px 38px rgba(253, 214, 214, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
 }
 
 .accessory-card button:hover {
@@ -538,8 +570,8 @@ p {
     color: white;
     background-color: #7c3aed;
     border: none;
-    border-radius: 20px;
-    padding: 8px 12px;
+    border-radius: 40px;
+    padding: 22px 58px;
     font-size: 17px;
     transition: all 0.3s;
     box-shadow: 0 19px 38px rgba(253, 214, 214, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
@@ -555,9 +587,9 @@ p {
 .footer {
     display: flex;
     flex-direction: column;
-    background-color: darkblue;
+    background-color: #101828;
     color: wheat;
-    font-size: 24px;
+    font-size: 16px;
 }
 
 .footer-container {
@@ -579,6 +611,7 @@ p {
 .footer a {
     text-decoration: none;
     color: white;
+    transition: all 0.3s;
 }
 
 .footer-brand {
@@ -594,17 +627,21 @@ p {
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    border-top: 1px solid snow;
 }
 
 .payment-methods img {
-    width: 55%;
+    width: 85%;
+    background-color: white;
+    padding: 8px 12px;
+    border-radius: 15px;
 }
 
 .payment-methods {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    width: 40%;
+    width: 30%;
 }
 
 .paypal,
@@ -615,11 +652,36 @@ p {
     margin: 0;
     margin-inline: 10px;
     height: 100px;
-    background-color: white;
+    /* background-color: white; */
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
+}
+
+.footer a:hover {
+    color: gray;
+}
+
+.feature-card h2 {
+    border-top: 1px solid rgb(228, 57, 57);
+    color: green;
+}
+
+.feature-card img {
+    width: 10%;
+    height: 30px;
+    background-color: rgba(0, 255, 255, 0.204);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.feature-category {
+    color: rgb(91, 91, 49);
+}
+
+.feature-card h3 {
+    color: darkgrey;
 }
