@@ -404,13 +404,17 @@ p {
     width: 100%;
     text-align: left;
     margin: 10px;
-    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 19px 38px rgba(253, 214, 214, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
     border-radius: 15px;
     padding: 10px;
 }
 
 .review {
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .review-header {
@@ -427,14 +431,195 @@ p {
     width: 100%;
 }
 
-.purchase-info {
-    width: 45%;
-}
-
 .verified {
     border-radius: 20px;
     background-color: #98baff;
     font-size: 11px;
     padding: 5px;
+}
+
+.load {
+    background-color: #7c3aed;
+    width: 15%;
+    border-radius: 20px;
+    margin-block: 10px;
+    box-shadow: 0 19px 38px rgba(253, 214, 214, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+    transition: all 0.2s;
+    color: white;
+}
+
+.load p {
+    margin: 15px 0;
+    padding: 0;
+    transition: all 0.2s;
+}
+
+.load:hover {
+    background-color: white;
+    color: #7c3aed;
+    cursor: pointer;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
+    margin: 50px auto;
+}
+
+.section4 img {
+    width: 80%;
+    border-radius: 20px;
+    transition: all 0.3s;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.container2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.accessory-card {
+    background-color: rgb(176, 255, 255);
+    width: calc(20% - 20px);
+    position: relative;
+    border-radius: 20px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    background-color: gainsboro;
+    border-radius: 20px;
+    padding: 4px 6px;
+    font-size: 12px;
+}
+
+.accessory-image {
+    text-align: center;
+}
+
+.accessory-card button {
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 8px 12px;
+    background-color: #7c3aed;
+    color: white;
+    border: 1px solid #7c3aed;
+    transition: all 0.3s;
+}
+
+.accessory-card button:hover {
+    background-color: white;
+    color: #7c3aed;
+}
+
+.section4 img:hover {
+    width: 85%;
+}
+
+.accessory-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.boto {
+    margin-top: 50px;
+}
+
+.boto button {
+    color: white;
+    background-color: #7c3aed;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 12px;
+    font-size: 17px;
+    transition: all 0.3s;
+    box-shadow: 0 19px 38px rgba(253, 214, 214, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
+}
+
+.boto button:hover {
+    color: #7c3aed;
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid #7c3aed;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    color: wheat;
+    font-size: 24px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    margin: 40px 80px;
+}
+
+.social-links a {
+    margin-inline: 10px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 90px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-brand {
+    width: 20%;
+}
+
+.footer-column a {
+    margin-top: 20px;
+}
+
+.footer-bottom {
+    margin-inline: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.payment-methods img {
+    width: 55%;
+}
+
+.payment-methods {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40%;
+}
+
+.paypal,
+.mastercard,
+.visa {
+    width: 20%;
+    padding: 0;
+    margin: 0;
+    margin-inline: 10px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 }
