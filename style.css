@@ -693,3 +693,17 @@ p {
 .feature-icon {
     margin-bottom: 20px;
 }
+
+.social-links img {
+    transition: all 0.3s;
+}
+
+.social-links img {
+    width: 10%;
+    background-color: rgb(101, 153, 198);
+    border-radius: 10px;
+}
+
+.social-links img:hover {
+    background-color: rgba(190, 41, 41, 0.279);
+}
