@@ -671,8 +671,8 @@ p {
 }
 
 .feature-card img {
-    width: 10%;
-    height: 30px;
+    width: 15%;
+    height: 50px;
     background-color: rgba(0, 255, 255, 0.204);
     border-radius: 20px;
     padding: 20px;
@@ -684,4 +684,12 @@ p {
 
 .feature-card h3 {
     color: darkgrey;
+}
+
+.feature-icon img {
+    padding: 10px;
+}
+
+.feature-icon {
+    margin-bottom: 20px;
 }
