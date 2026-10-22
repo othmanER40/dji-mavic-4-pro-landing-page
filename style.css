@@ -187,8 +187,11 @@
     color: red;
     font-size: 14px;
     background-color: whitesmoke;
-    padding: 4px 10px;
     margin: 19px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .discount img {
@@ -444,23 +447,20 @@ p {
     padding: 5px;
 }
 
-.load {
+.load {}
+
+.load p {
     background-color: #7c3aed;
-    width: 15%;
     border-radius: 20px;
     margin-block: 10px;
     box-shadow: 0 19px 38px rgba(253, 214, 214, 0.3), 0 15px 13px rgba(0, 0, 0, 0.22);
     transition: all 0.2s;
     color: white;
-}
-
-.load p {
-    margin: 15px 0;
-    padding: 0;
+    padding: 8px 20px;
     transition: all 0.2s;
 }
 
-.load:hover {
+.load p:hover {
     background-color: white;
     color: #7c3aed;
     cursor: pointer;
